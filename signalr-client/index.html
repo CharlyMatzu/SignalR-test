@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        
+        .notify-container{
+            height: 500px;
+            border: 2px solid rgba(21,21,21,.5);
+            padding: 10px;
+        }
+        .notify-container .item{
+            margin-bottom: 5px;
+        }
+
+    </style>
+    
+    <div class="container">
+        <h1>SignalR client</h1>
+        
+        <div class="row-xs-12 notify-container" id="notify-container">
+        </div>
+    </div>
+
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/signalr/signalr.min.js"></script>
+    <script src="js/notifications.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
