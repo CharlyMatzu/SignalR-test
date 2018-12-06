@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\laragon\\www\\signalr\\signalr-server\\SignalRChat\\SignalRPrint.csproj",
+      "projectUniqueName": "C:\\laragon\\www\\SignalR-test\\signalr-server\\SignalRChat\\SignalRPrint.csproj",
       "projectName": "SignalRPrint",
-      "projectPath": "C:\\laragon\\www\\signalr\\signalr-server\\SignalRChat\\SignalRPrint.csproj",
+      "projectPath": "C:\\laragon\\www\\SignalR-test\\signalr-server\\SignalRChat\\SignalRPrint.csproj",
       "packagesPath": "C:\\Users\\Emcor\\.nuget\\packages\\",
-      "outputPath": "C:\\laragon\\www\\signalr\\signalr-server\\SignalRChat\\obj\\",
+      "outputPath": "C:\\laragon\\www\\SignalR-test\\signalr-server\\SignalRChat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

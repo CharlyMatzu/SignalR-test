@@ -1,8 +1,9 @@
 ﻿//self-hosted
 let connection = new signalR.HubConnectionBuilder().withUrl("/NotificationHub").build();
 
-connection.on("Notification", function (url) {
-    console.log("Recibido");
+connection.on("Notification", function (message) {
+    //console.log("Recibido");
+    console.log(message);
 });
 
 connection.start()
