@@ -18,9 +18,10 @@ function setConnection(){
     // Connect
     connection.start()
         .then( function () {
-            console.log("Connected");
+            // console.log("Connected");
         })
         .catch(function ( err ) {
+            receiver( "Error: " + err.toString() );
             console.error( err.toString() +" - "+ host );
         });
 
